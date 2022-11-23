@@ -55,28 +55,28 @@ include 'components/add_cart.php';
 
 <section class="category">
 
-   <h1 class="title">Danh mục thực phẩm theo mùa</h1>
+   <h1 class="title">Danh mục thực phẩm</h1>
 
    <div class="box-container">
 
-      <a href="category.php?category=Mùa Xuân" class="box">
-         <img src="images/flower.png" alt="">
-         <h3>Mùa Xuân</h3>
+      <a href="category.php?category=Rau Củ" class="box">
+         <img src="images/cat-1.png" alt="">
+         <h3>Rau Củ</h3>
       </a>
 
-      <a href="category.php?category=Mùa Hạ" class="box">
-         <img src="images/sun.png" alt="">
-         <h3>Mùa Hạ</h3>
+      <a href="category.php?category=Trái Cây" class="box">
+         <img src="images/cat-2.png" alt="">
+         <h3>Trái Cây</h3>
       </a>
 
-      <a href="category.php?category=Mùa Thu" class="box">
-         <img src="images/leaf-fall.png" alt="">
-         <h3>Mùa Thu</h3>
+      <a href="category.php?category=Sản Phẩm Từ Sữa" class="box">
+         <img src="images/cat-3.png" alt="">
+         <h3>Sản Phẩm Từ Sữa</h3>
       </a>
 
-      <a href="category.php?category=Mùa Đông" class="box">
-         <img src="images/snowflake.png" alt="">
-         <h3>Mùa Đông</h3>
+      <a href="category.php?category=Thịt Tươi Sống" class="box">
+         <img src="images/cat-4.png" alt="">
+         <h3>Thịt Tươi Sống</h3>
       </a>
 
    </div>

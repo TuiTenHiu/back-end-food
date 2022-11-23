@@ -88,10 +88,10 @@ if(isset($_GET['delete'])){
       <input type="number"  required placeholder="nhập giá sản phẩm" name="price" onkeypress="if(this.value.length == 10) return false;" class="box">
       <select name="category" class="box" required>
          <option value="" disabled selected>chọn danh mục</option>
-         <option value="Mùa Xuân">Mùa Xuân</option>
-         <option value="Mùa Hạ">Mùa Hạ</option>
-         <option value="Mùa Thu">Mùa Thu</option>
-         <option value="Mùa Đông">Mùa Đông</option>
+         <option value="Rau củ">Rau củ</option>
+         <option value="Trái Cây">Trái Cây</option>
+         <option value="Sản Phẩm Từ Sữa">Sản Phẩm Từ Sữa</option>
+         <option value="Thịt Tươi Sống">Thịt Tươi Sống</option>
       </select>
       <input type="file" name="image" class="box" accept="image/jpg, image/jpeg, image/png, image/webp" required>
       <input type="submit" value="Thêm sản phẩm" name="add_product" class="btn">

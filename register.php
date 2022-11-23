@@ -76,7 +76,7 @@ if(isset($_POST['submit'])){
       <input type="password" name="pass" placeholder="Nhập mật khẩu của bạn..." class="box" required>
       <input type="password" name="cpass" placeholder="Xác nhận mật khẩu của bạn..." class="box" required>
       <input type="submit" value="Đăng Kí Ngay" name="submit" class="btn">
-      <p>Bạn đã sẵn sàng để tạo một tài khoản?<a href="login.php">Đăng Nhập</a></p>
+      <p>Bạn đã có tài khoản -> <a href="login.php">Đăng Nhập</a></p>
    </form>
 
 </section>

@@ -88,10 +88,10 @@ if(isset($_POST['update'])){
       <span>cập nhật danh mục</span>
       <select name="category" class="box" required>
          <option selected value="<?= $fetch_products['category']; ?>"><?= $fetch_products['category']; ?></option>
-         <option value="mùa xuân">mùa xuân</option>
-         <option value="mùa hạ">mùa hạ</option>
-         <option value="mùa thu">mùa thu</option>
-         <option value="mùa đông">mùa đông</option>
+         <option value="Rau củ">Rau củ</option>
+         <option value="Trái Cây">Trái Cây</option>
+         <option value="Sản Phẩm Từ Sữa">Sản Phẩm Từ Sữa</option>
+         <option value="Thịt Tươi Sống">Thịt Tươi Sống</option>
       </select>
       <span>Cập nhật ảnh</span>
       <input type="file" name="image" class="box" accept="image/jpg, image/jpeg, image/png, image/webp">
