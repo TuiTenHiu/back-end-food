@@ -30,7 +30,7 @@ if(isset($_POST['submit'])){
       }else{
          $insert_admin = $conn->prepare("INSERT INTO `admin`(name, password) VALUES(?,?)");
          $insert_admin->execute([$name, $cpass]);
-         $message[] = 'quản trị viên mới đăng ký!';
+         $message[] = 'Đăng kí thành công!';
       }
    }
 
@@ -58,14 +58,14 @@ if(isset($_POST['submit'])){
 <section class="form-container">
 
    <form action="" method="POST">
-      <h3>Đăng Kí</h3>
+      <h3>Đăng Kí </h3>
       <input type="text" name="name" maxlength="20" 
-      required placeholder="enter your username" class="box">
+      required placeholder="Nhập tên người dùng" class="box">
       <input type="password" name="pass" maxlength="20" required 
-      placeholder="enter your password" class="box">
+      placeholder="Nhập mật khẩu của bạn" class="box">
       <input type="password" name="cpass" maxlength="20" required 
-      placeholder="confirm your password" class="box">
-      <input type="submit" value="register now" name="submit" class="btn">
+      placeholder="Xác nhận mật khẩu của bạn" class="box">
+      <input type="submit" value="Đăng kí ngay" name="submit" class="btn">
    </form>
 
 </section>

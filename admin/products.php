@@ -84,10 +84,10 @@ if(isset($_GET['delete'])){
 
    <form action="" method="POST" enctype="multipart/form-data">
       <h3>Thêm Sản Phẩm</h3>
-      <input type="text" required placeholder="nhập tên sản phẩm" name="name"  class="box">
-      <input type="number"  required placeholder="nhập giá sản phẩm" name="price" onkeypress="if(this.value.length == 10) return false;" class="box">
+      <input type="text" required placeholder="Nhập tên sản phẩm" name="name"  class="box">
+      <input type="number"  required placeholder="Nhập giá sản phẩm" name="price" onkeypress="if(this.value.length == 10) return false;" class="box">
       <select name="category" class="box" required>
-         <option value="" disabled selected>chọn danh mục</option>
+         <option value="" disabled selected>Chọn danh mục</option>
          <option value="Rau củ">Rau củ</option>
          <option value="Trái Cây">Trái Cây</option>
          <option value="Sản Phẩm Từ Sữa">Sản Phẩm Từ Sữa</option>

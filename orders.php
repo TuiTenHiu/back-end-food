@@ -62,7 +62,8 @@ if(isset($_SESSION['user_id'])){
       <p> Tình trạng thanh toán : 
          <span style="color:
          <?php
-            if($fetch_orders['payment_status'] == 'pending'){ echo 'red'; 
+            if($fetch_orders['payment_status'] == 'pending'){ 
+               echo 'red'; 
             }else
                { echo 'green'; }; ?>
                ">

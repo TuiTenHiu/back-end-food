@@ -58,8 +58,8 @@ if(isset($message)){
 
    <form action="" method="POST">
       <h3>Đăng Nhập</h3>
-      <input type="text" name="name" placeholder="nhập tên người dùng của bạn" class="box" required>
-      <input type="password" name="pass" placeholder="nhập mật khẩu của bạn" class="box" required>
+      <input type="text" name="name" placeholder="Nhập tên người dùng của bạn" class="box" required>
+      <input type="password" name="pass" placeholder="Nhập mật khẩu của bạn" class="box" required>
       <input type="submit" value="Đăng nhập" name="submit" class="btn">
    </form>
 
