@@ -21,8 +21,8 @@ if(isset($message)){
          <a href="dashboard.php">Trang Chủ</a>
          <a href="products.php">Sản phẩm</a>
          <a href="placed_orders.php">Đặt hàng</a>
-         <a href="admin_accounts.php">quản trị viên</a>
-         <a href="users_accounts.php">người dùng</a>
+         <a href="admin_accounts.php">Quản trị viên</a>
+         <a href="users_accounts.php">Người dùng</a>
       </nav>
 
       <div class="icons">

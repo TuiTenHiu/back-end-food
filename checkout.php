@@ -76,7 +76,7 @@ if(isset($_POST['submit'])){
 
 <section class="checkout">
 
-   <h1 class="title">Tóm tắt theo thứ tự</h1>
+   <h1 class="title">Thông tin đơn hàng</h1>
 
 <form action="" method="post">
 

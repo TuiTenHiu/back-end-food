@@ -306,6 +306,7 @@ section{
    border:var(--border);
    padding:2rem;
    text-align: center;
+   border-radius: 20px;
 }
 
 .category .box-container .box img{
@@ -330,6 +331,7 @@ section{
 }
 
 .products .box-container .box{
+   border-radius: 20px;
    border:var(--border);
    padding:1.5rem;
    position: relative;
@@ -923,6 +925,7 @@ section{
    border:var(--border);
    padding:2rem;
    text-align: center;
+   border-radius: 20px;
 }
 
 .footer .grid .box img{

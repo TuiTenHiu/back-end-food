@@ -42,10 +42,10 @@ if(isset($_GET['delete'])){
 
    <div class="box-container">
 
-   <div class="box">
+   <!-- <div class="box">
       <p>đăng ký quản trị viên mới</p>
       <a href="register_admin.php" class="option-btn">Đăng Kí</a>
-   </div>
+   </div> -->
 
    <?php
       $select_account = $conn->prepare("SELECT * FROM `admin`");

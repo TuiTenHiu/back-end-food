@@ -49,9 +49,9 @@ if(!isset($admin_id)){
          while($fetch_pendings = $select_pendings->fetch(PDO::FETCH_ASSOC)){
             $total_pendings += $fetch_pendings['total_price'];
          }
-      ?>
-      <h3><span></span><?= $total_pendings; ?><span></span></h3>
-      <p>tổng số đang chờ xử lý</p>
+      ?> 
+      <h3><span></span><?= $admin_id; ?><span></span></h3>
+      <p>Tổng số đang chờ xử lý</p>
       <a href="placed_orders.php" class="btn">xem đơn đặt hàng</a>
    </div>
 
